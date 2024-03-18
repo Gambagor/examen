@@ -15,7 +15,7 @@ public class Empleados {
     }
 
     public static void mostrarLista(ArrayList<Empleado> lista) {
-        System.out.println("Lista de Empleados:");
+        System.out.println(MagicStrings.mostrarListaEmpleadosString);
         for (Empleado empleado : lista) {
             System.out.println(empleado);
         }

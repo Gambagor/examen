@@ -9,7 +9,7 @@ public class SistemaGestionEmpleados {
         Empleados.darDeAltaEmpleado(lista1);
 
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Introduzca el porcentaje de aumento de salario: ");
+        System.out.print(MagicStrings.pedirNumPorcentajeString);
         double porcentaje = scanner.nextDouble();
 
         Empleados.aumentarSalario(porcentaje, lista1);
